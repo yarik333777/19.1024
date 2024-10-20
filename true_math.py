@@ -1,11 +1,7 @@
 from math import inf
 
-def true_divide(first, second):
-    groop  = float(first)
-    loon = float(second)
-    if groop != 0 and loon  != 0:
-        return groop / loon
+def true_divide(first2, second2):
+    if first2 != 0 and second2 != 0:
+        return first2 / second2
     else:
         return inf
-j = true_divide(6,0)
-print(j)
