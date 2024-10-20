@@ -1,10 +1,14 @@
 from fake_math import fakt_divide as f1
 from true_math import true_divide as t2
 
-f1(69, 3)
-f1(3, 0)
-t2(49, 7)
-t2(15, 0)
+i = f1(69, 3)
+print(i)
+k = f1(3, 0)
+print(k)
+p = t2(49, 7)
+print(p)
+u = t2(15, 0)
+print(u)
 
 
 # В fake_math создайте функцию divide, которая принимает два параметра first и second.
